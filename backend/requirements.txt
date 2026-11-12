@@ -2,7 +2,7 @@
 # Younit SDK's dependency chain (mcp -> sse-starlette -> starlette>=0.49.1).
 fastapi==0.159.1
 starlette==1.10.0
-uvicorn[standard]==0.34.2
+uvicorn[standard]==0.54.0
 pydantic==2.11.4
 pydantic-settings==2.9.1
 SQLAlchemy==2.0.40
