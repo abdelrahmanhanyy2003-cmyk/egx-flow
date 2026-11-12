@@ -1,0 +1,32 @@
+# secrets - never commit real credentials
+.env
+.env.*
+!.env.example
+backend/.env
+
+# launcher runtime (logs, process ids)
+.run/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# node
+node_modules/
+frontend/.next/
+frontend/.next-prod/
+frontend/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# os / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
